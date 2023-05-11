@@ -6,11 +6,15 @@ import Missions from './components/Missions';
 class App extends React.Component {
   render() {
     return (
-      <section>
-        <Header />
-        <SolarSystem />
-        <Missions />
-      </section>
+      <div
+        className="text-light d-flex justify-content-center"
+      >
+        <div>
+          <Header />
+          <SolarSystem />
+          <Missions />
+        </div>
+      </div>
     );
   }
 }

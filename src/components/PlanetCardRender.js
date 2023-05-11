@@ -5,7 +5,7 @@ import planets from '../data/planets';
 class PlanetCardRender extends React.Component {
   render() {
     return (
-      <div>
+      <div className="d-flex justify-content-center flex-wrap">
         {planets.map(({ name, image }) => (<PlanetCard
           key={ name }
           planetName={ name }
